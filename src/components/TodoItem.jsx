@@ -21,7 +21,7 @@ export default function TodoItem({ item, todos, setTodos }) {
             onClick={() => handleDelete(item)}
             className={styles.deleteButton}
           >
-            X
+            Delete
           </button>
         </span>
       </div>
